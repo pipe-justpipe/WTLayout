@@ -1,0 +1,111 @@
+/* Global styles for all elements */
+*{
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+/* Reset default margins and padding for h1 elements */
+h1{
+    padding: 0;
+    margin: 0;
+}
+
+/* Global styles for the entire body */
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: verdana;
+}
+
+/* Styling for the header section */
+#header{
+    background-color: #8f3985;
+    display: flex;
+    align-items: center;
+    height: 150px;
+}
+
+/* Adding a border to specific sections */
+#middle, #left, #right, #header, #footer{
+    border: 1px solid black;
+}
+
+/* Styling for the header's inner div */
+header > div{
+    width: 50%;
+    display: flex;
+   justify-content: flex-start;
+   margin-left: auto;
+   margin-right: auto;
+   gap:200px;
+}
+
+/* Styling for the .header-text class within the header */
+.header-text{
+    display: grid;
+    gap:5px;
+}
+
+/* Styling for the main content section */
+main{
+    width: 100%;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+/* Styling for the middle section */
+#middle{
+    background-color:#cea2ac;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Styling for the right and left sections */
+#right, #left{
+    background-color: #a675a1;
+    max-width: 400px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Styling for the inner divs in middle, right, and left sections */
+#middle > div, #right > div, #left > div{
+    display: grid;
+    gap: 5px;
+}
+
+/* Styling for the .footer-text class */
+.footer-text{
+    display: grid;
+    gap: 5px;
+}
+
+/* Styling for the footer section */
+#footer{
+    background-color: #462255;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+/* Styling for the inner div in the footer section */
+#footer >div{
+    display: flex;
+    align-items: center;
+    width: 75%;
+    justify-content: flex-end;
+    gap: 200px;
+}
+
+
